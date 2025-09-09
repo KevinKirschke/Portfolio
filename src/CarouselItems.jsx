@@ -9,8 +9,8 @@ export const carouselItems = [
       <div className="carousel-page">
         <p>
           Nach meiner erfolgreich abgeschlossenen Ausbildung zum Fachinformatiker für Anwendungsentwicklung 
-          habe ich umfassende praktische Erfahrungen in den Bereichen <strong>IT-Sicherheit</strong>, 
-          <strong>Systemintegration</strong> und <strong>Softwareentwicklung</strong> gesammelt. 
+          habe ich umfassende praktische Erfahrungen in den Bereichen IT-Sicherheit, 
+          Systemintegration und Softwareentwicklung gesammelt. 
         </p>
         <p>
           Neben klassischer Administration von Windows- und Linux-Systemen sowie der Bearbeitung von Firewall-Tickets 
@@ -18,19 +18,19 @@ export const carouselItems = [
           Dabei habe ich gelernt, Risiken zu erkennen und durch technische Maßnahmen abzusichern. 
         </p>
         <p>
-          Besonders fasziniert mich die dynamische Entwicklung im Bereich <strong>Cyber Security</strong>. 
+          Besonders fasziniert mich die dynamische Entwicklung im Bereich Cyber Security. 
           Hier sehe ich meine berufliche Zukunft: moderne Bedrohungen mit Hilfe von 
-          <strong>künstlicher Intelligenz</strong> und neuesten Technologien zu analysieren, 
+          künstlicher Intelligenz und neuesten Technologien zu analysieren, 
           Angriffsmuster automatisiert zu erkennen und Abwehrmaßnahmen proaktiv umzusetzen. 
         </p>
         <p>
           Gleichzeitig bleibe ich meiner Leidenschaft für die Softwareentwicklung treu: 
-          Ob mit <strong>React</strong>, <strong>JavaScript</strong>, <strong>HTML</strong> und <strong>CSS</strong> 
+          Ob mit React, JavaScript, HTML und CSS, 
           oder in der Automatisierung von Prozessen – ich verbinde gerne die Stärken aus beiden Welten: 
           sichere IT-Infrastrukturen und moderne, nutzerfreundliche Anwendungen.
         </p>
         <p>
-          Mein Ziel ist es, mich als IT-Spezialist im Bereich <strong>Cyber Security</strong> zu etablieren – 
+          Mein Ziel ist es, mich als IT-Spezialist im Bereich Cyber Security zu etablieren – 
           mit einem klaren Fokus auf den Einsatz von KI-gestützten Methoden, 
           um Unternehmen nachhaltig gegen digitale Bedrohungen zu schützen.
         </p>

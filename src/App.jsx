@@ -79,7 +79,7 @@ const App = () => {
               ref={contactCardRef}
             >
               <img
-                src="/me.png"
+                src="/Portfolio/me1.png"
                 alt="Kevin Kirschke"
                 className="profile-image"
               />
@@ -108,6 +108,7 @@ const App = () => {
           </div>
           
           <div className="profile-bio">
+            <br/>
             <p>
               Als gelernter Fachinformatiker für Anwendungsentwicklung mit abwechslungsreicher Berufslaufbahn bringe ich sowohl technische Kompetenz 
               als auch praktische Problemlösungsfähigkeiten mit. Auch im Bereich der Systemintigration bin ich mit dem nötigen Basiswissen versorgt. Meine Leidenschaft gilt der Entwicklung benutzerfreundlicher 
@@ -198,10 +199,10 @@ const App = () => {
 
              <div
               className="project-card"
-              onClick={() => window.open("https://github.com/KevinKirschke/PasswordManagerApp", "_blank")}
+              onClick={() => window.open("https://github.com/KevinKirschke/KevinsPasswortGenerator", "_blank")}
               role="button"
               tabIndex={0}
-              onKeyDown={(e) => e.key === "Enter" && window.open("https://github.com/KevinKirschke/PasswordManagerApp", "_blank")}
+              onKeyDown={(e) => e.key === "Enter" && window.open("https://github.com/KevinKirschke/KevinsPasswortGenerator", "_blank")}
             >
               <h3>Passwortgenerator</h3>
               <h4>Passwörter erstellen und verwalten</h4>
