@@ -234,9 +234,9 @@ h4 {
 
 .contact-card {
   position: absolute;
-  top: 0; /* gleiche Höhe wie dein Profilbild */
-  left: 110%; /* rechts daneben statt darunter */
-  transform: none; /* kein zentrieren mehr */
+  top: 0;
+  left: 110%; /* Desktop rechts vom Bild */
+  transform: translateX(0); /* Start: keine Verschiebung */
   background: linear-gradient(145deg, #3e3e3e, #353535);
   color: var(--text-light);
   padding: 1.8rem;
@@ -244,7 +244,8 @@ h4 {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
   z-index: 10;
   min-width: 280px;
-  text-align: left; /* wirkt eleganter, kannst auch center lassen */
+  max-width: 300px;
+  text-align: left;
   border: 1px solid var(--accent-blue);
   backdrop-filter: blur(10px);
   opacity: 0;
@@ -252,9 +253,10 @@ h4 {
   transition: var(--transition);
 }
 
-/* Sichtbar, wenn man entweder das Bild oder die Karte selbst hovered */
+/* Sichtbar bei Hover oder Klick */
 .profile-image-container:hover .contact-card,
-.contact-card:hover {
+.contact-card:hover,
+.show-contact-card .contact-card {
   opacity: 1;
   visibility: visible;
   transform: translateX(0) translateY(0);
@@ -395,6 +397,7 @@ h4 {
   display: flex;
   gap: 2rem; /* hier steuerst du den „Tabulator“-Abstand */
   align-items: flex-start;
+  flex-wrap: wrap; /* wichtig für Mobile */
 }
 
 .timeline-date {
@@ -407,6 +410,7 @@ h4 {
 .timeline-content {
   flex: 1;
   color: var(--text-color);
+  overflow-wrap: break-word; /* verhindert Überlaufen */
 }
 
 
@@ -769,14 +773,17 @@ section {
 /* Mobile / kleinere Screens → Card springt nach unten */
 @media (max-width: 768px) {
   .contact-card {
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 1rem;
-
-
-    max-width: 95%; /* damit es nicht den Rand sprengt */
+    top: 100%; 
+    left: 50%; 
+    transform: translateX(-50%); /* mittig */
+    max-width: 95%; 
     text-align: center;
+    margin-top: 1rem;
+  }
+
+  /* Überschreibe .show-contact-card transform auf Mobile */
+  .show-contact-card .contact-card {
+    transform: translateX(-50%);
   }
 
 }
