@@ -22,7 +22,16 @@ const App = () => {
     { name: 'Node.js', level: 6 },
     { name: 'GitHub', level: 8 },
     { name: 'CSS', level: 7 },
-    { name: 'UI/UX Design', level: 8 }
+    { name: 'UI/UX Design', level: 8 },
+    { name: 'Firewalls', level: 5 },
+    { name: 'Windows Server', level: 4 },
+    { name: 'Linux Administration', level: 6 },
+    { name: 'Virtualisierung (VMware/Hyper-V)', level: 7 },
+    { name: 'Netzwerkmanagement (Cisco/Juniper)', level: 5 },
+    { name: 'Monitoring & Logging', level: 5 },
+    { name: 'Backup & Restore', level: 6 },
+    { name: 'Patch Management', level: 5 },
+    { name: 'TCP/IP, DNS, DHCP', level: 6 }
   ];
 
   // Kontaktfunktionen
