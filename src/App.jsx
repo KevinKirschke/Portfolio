@@ -23,7 +23,7 @@ const App = () => {
     { name: 'GitHub', level: 8 },
     { name: 'CSS', level: 7 },
     { name: 'UI/UX Design', level: 8 },
-    { name: 'Cyber Security (Netzwerksicherheit, Pentesting)', level: 6 },
+    { name: 'Cyber Security (Netzwerk, Pentesting)', level: 6 },
     { name: 'Windows Server', level: 6 },
     { name: 'Linux Administration', level: 6 },
     { name: 'Virtualisierung (VMware/Oracle)', level: 7 },
