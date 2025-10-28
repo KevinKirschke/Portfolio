@@ -1,4 +1,3 @@
-
 // src/App.jsx
 import React, { useState, useRef, useEffect } from 'react';
 import './index.css';
@@ -11,6 +10,12 @@ const App = () => {
   const contactCardRef = useRef(null);
   const carouselRef = useRef(null);
   const [showQR, setShowQR] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
+
+  // Dark/Light Mode Toggle
+  const toggleDarkMode = () => {
+    setIsDarkMode(!isDarkMode);
+  };
 
   // Skill-Daten
   const skills = [
@@ -65,19 +70,36 @@ const App = () => {
   }, []);
 
   return (
-    <div className="portfolio-container">
+    <div className={`portfolio-container ${isDarkMode ? 'dark-mode' : 'light-mode'}`}>
       <header>
-        <h1>Kevin Kirschke</h1>
-        <p className="subtitle">Fachinformatiker für Anwendungsentwicklung</p>
+        <div className="header-content">
+          <div className="header-text">
+            <h1>Kevin Kirschke</h1>
+            <p className="subtitle">Fachinformatiker für Anwendungsentwicklung</p>
+          </div>
+        </div>
         <nav>
           <a href="#about">Über mich</a>
           <a href="#skills">Skills</a>
           <a href="#experience">Werdegang</a>
           <a href="#projects">Projekte</a>
           <a href="#contact">Kontakt</a>
+          <button 
+            className="theme-toggle nav-theme-toggle"
+            onClick={toggleDarkMode}
+            aria-label={isDarkMode ? 'Zu Light Mode wechseln' : 'Zu Dark Mode wechseln'}
+          >
+            <span className="theme-icon">
+              {isDarkMode ? '☀️' : '🌙'}
+            </span>
+            <span className="theme-text">
+              {isDarkMode ? 'Light' : 'Dark'}
+            </span>
+          </button>
         </nav>
       </header>
 
+      {/* Rest deiner Komponente bleibt gleich */}
       <main>
         <section id="about" className="profile-section">
           <div className="profile-header">
@@ -126,6 +148,7 @@ const App = () => {
           </div>
         </section>
 
+        {/* Rest deiner Sections bleiben gleich */}
         <section id="skills">
           <h2>Meine Skills</h2>
           <div className="skills-container">
@@ -240,8 +263,7 @@ const App = () => {
       <footer id="contact">
         <p>&copy; {new Date().getFullYear()} Kevin Kirschke</p>
         <p>Alle Rechte vorbehalten</p>
-            {/* QR Code Canvas */}
-      <QRContact isOpen={showQR} onClose={() => setShowQR(false)} />
+        <QRContact isOpen={showQR} onClose={() => setShowQR(false)} />
       </footer>
     </div>
   );

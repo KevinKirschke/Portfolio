@@ -1,4 +1,8 @@
 /* index.css - Modern UI Upgrade */
+
+
+/*
+
 :root {
   --dark-gray: #1a1a1a;
   --medium-gray: #2d2d2d;
@@ -13,6 +17,297 @@
   --glow-teal: 0 0 15px rgba(46, 232, 214, 0.7);
   --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+*/
+
+/* Dark/Light Mode Variablen */
+:root {
+  /* Dark Mode Variablen (Standard) */
+  --dark-gray: #1a1a1a;
+  --medium-gray: #2d2d2d;
+  --light-gray: #3d3d3d;
+  --text-light: #e6e6e6;
+  --text-muted: #b3b3b3;
+  --accent-blue: #05adfc;
+  --accent-teal: #2ee8d6;
+  --accent-purple: #a78bfa;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  --glow-blue: 0 0 15px rgba(5, 173, 252, 0.7);
+  --glow-teal: 0 0 15px rgba(46, 232, 214, 0.7);
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.light-mode {
+  /* Light Mode Variablen */
+  --dark-gray: #f5f5f5;
+  --medium-gray: #e0e0e0;
+  --light-gray: #d0d0d0;
+  --text-light: #333333;
+  --text-muted: #666666;
+  --accent-blue: #007acc;
+  --accent-teal: #00a896;
+  --accent-purple: #7c3aed;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --glow-blue: 0 0 15px rgba(0, 122, 204, 0.4);
+  --glow-teal: 0 0 15px rgba(0, 168, 150, 0.4);
+}
+
+
+
+
+
+
+
+
+
+
+
+  /* Light Mode Text Anpassungen für Karussell-Inhalte */
+.light-mode .carousel-body,
+.light-mode .carousel-body p,
+.light-mode .carousel-body li,
+.light-mode .carousel-body span,
+.light-mode .timeline-content,
+.light-mode .education-content,
+.light-mode .education-content p,
+.light-mode .education-content li,
+.light-mode .experience-content,
+.light-mode .experience-content p,
+.light-mode .qualifications-container,
+.light-mode .qualifications-container li,
+.light-mode .interests-container,
+.light-mode .interests-container li,
+.light-mode .personal-container,
+.light-mode .personal-container p {
+  color: var(--text-light) !important;
+}
+
+/* Spezifische Anpassungen für Timeline */
+.light-mode .timeline-date {
+  color: var(--accent-blue) !important;
+}
+
+.light-mode .timeline-content {
+  color: var(--text-light) !important;
+}
+
+/* Education Section */
+.light-mode .education-item h4 {
+  color: var(--accent-blue) !important;
+}
+
+.light-mode .education-content p,
+.light-mode .education-content li {
+  color: var(--text-light) !important;
+}
+
+/* Experience Section */
+.light-mode .experience-item h4 {
+  color: var(--accent-blue) !important;
+}
+
+.light-mode .experience-content p {
+  color: var(--text-light) !important;
+}
+
+/* Qualifications Section */
+.light-mode .qualifications-column h4 {
+  color: var(--accent-blue) !important;
+}
+
+.light-mode .qualifications-column li {
+  color: var(--text-light) !important;
+}
+
+/* Interests Section */
+.light-mode .interests-column h4 {
+  color: var(--accent-blue) !important;
+}
+
+.light-mode .interests-column li {
+  color: var(--text-light) !important;
+}
+
+/* Personal/Contact Section */
+.light-mode .personal-info h4,
+.light-mode .contact-info h4 {
+  color: var(--accent-blue) !important;
+}
+
+.light-mode .personal-info p,
+.light-mode .contact-info p {
+  color: var(--text-light) !important;
+}
+
+/* Listen Anpassungen */
+.light-mode .timeline-list li:before {
+  color: var(--accent-teal) !important;
+}
+
+.light-mode .timeline-list li span {
+  color: var(--accent-teal) !important;
+  background: rgba(0, 122, 204, 0.1) !important;
+}
+
+
+
+
+/* Light Mode Anpassungen für Profil-Bereich */
+.light-mode .profile-info h2,
+.light-mode .profile-title,
+.light-mode .profile-company,
+.light-mode .profile-bio p,
+.light-mode .profile-info p {
+  color: var(--text-light) !important;
+}
+
+.light-mode .profile-email {
+  color: var(--accent-blue) !important;
+}
+
+/* Überschriften im Profil-Bereich */
+.light-mode .profile-info h2 {
+  color: var(--accent-teal) !important;
+}
+
+/* Spezifisch für die Bio */
+.light-mode .profile-bio p {
+  color: var(--text-light) !important;
+  line-height: 1.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Header Layout Anpassungen */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-controls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+}
+
+/* Theme Toggle Button */
+.theme-toggle {
+  background: linear-gradient(45deg, var(--accent-blue), var(--accent-teal));
+  color: white;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  box-shadow: var(--shadow);
+}
+
+.theme-toggle:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(5, 173, 252, 0.4);
+}
+
+.theme-icon {
+  font-size: 1.2rem;
+}
+
+.theme-text {
+  font-size: 0.9rem;
+}
+
+/* Light Mode spezifische Anpassungen */
+.light-mode body {
+  background-color: var(--dark-gray);
+  color: var(--text-light);
+}
+
+.light-mode header {
+  background: linear-gradient(135deg, var(--medium-gray) 0%, #e5e5e5 100%);
+  border-bottom: 3px solid var(--accent-blue);
+}
+
+.light-mode section {
+  background: linear-gradient(145deg, #f0f0f0, #e5e5e5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .skill-item {
+  background: rgba(208, 208, 208, 0.5);
+}
+
+.light-mode .skill-bar {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .project-card {
+  background: linear-gradient(145deg, #f0f0f0, #e5e5e5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .contact-card {
+  background: linear-gradient(145deg, #f0f0f0, #e5e5e5);
+  border: 1px solid var(--accent-blue);
+}
+
+.light-mode footer {
+  background: linear-gradient(180deg, #f5f5f5 0%, #e8e8e8 100%);
+  border-top: 1px solid var(--light-gray);
+}
+
+/* Responsive Design für den Theme Toggle */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .header-text {
+    min-width: auto;
+  }
+  
+  .theme-text {
+    display: none; /* Text auf mobilen Geräten ausblenden */
+  }
+  
+  .theme-toggle {
+    padding: 0.8rem;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+  }
+}
+
+/* Rest deines bestehenden CSS bleibt erhalten */
 
 * {
   margin: 0;
@@ -785,6 +1080,11 @@ section {
   .show-contact-card .contact-card {
     transform: translateX(-50%);
   }
+
+
+
+
+
 
   
 }
