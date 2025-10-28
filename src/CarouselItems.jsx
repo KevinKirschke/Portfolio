@@ -131,13 +131,16 @@ export const carouselItems = [
             <h4>Praktika & Weiterbildungen</h4>
             <ul>
               <li>Cisco Networking Academy & Certification
+                <br/>
                 <br />- Introduction to Networks (CCNA Basic)
                 <br />- Cybersecurity Basic
                 <br />- Cybersecurity Essentials
                 <br />- Network Basic
                 <br />- Network Essentials
               </li>
+               <br/>
               <li>IT-Praxis
+                <br/>
                 <br />- Team-Wiki-Dokumentation und Versionsverwaltung (GitHub)
                 <br />- React-Frontend & Flask-Backend Projekte
                 <br />- Schulungs- und Projektkoordination im Team
