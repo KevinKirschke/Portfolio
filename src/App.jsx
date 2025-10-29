@@ -11,11 +11,34 @@ const App = () => {
   const carouselRef = useRef(null);
   const [showQR, setShowQR] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(true);
+  const [showScrollTop, setShowScrollTop] = useState(false);
 
   // Dark/Light Mode Toggle
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
   };
+
+    // Scroll to Top Funktion
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
+  // Scroll Event Listener für Scroll-to-Top Button
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowScrollTop(true);
+      } else {
+        setShowScrollTop(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   // Skill-Daten
   const skills = [
@@ -259,6 +282,17 @@ const App = () => {
           </div>
         </section>
       </main>
+
+      {/* Scroll to Top Button */}
+      {showScrollTop && (
+        <button 
+          className="scroll-to-top"
+          onClick={scrollToTop}
+          aria-label="Nach oben scrollen"
+        >
+          ↑
+        </button>
+      )}
 
       <footer id="contact">
         <p>&copy; {new Date().getFullYear()} Kevin Kirschke</p>
