@@ -8,6 +8,7 @@ const App = () => {
   const [showContactCard, setShowContactCard] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
   const contactCardRef = useRef(null);
+  const experienceRef = useRef(null);
   const carouselRef = useRef(null);
   const [showQR, setShowQR] = useState(false);
   const [isDarkMode, setIsDarkMode] = useState(true);
@@ -80,6 +81,16 @@ const App = () => {
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev === 0 ? carouselItems.length - 1 : prev - 1));
   };
+  
+  useEffect(() => {
+  if (experienceRef.current) {
+    experienceRef.current.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+  }
+}, [currentSlide]);
+
 
   // Klick außerhalb der Kontaktkarte
   useEffect(() => {
@@ -122,7 +133,7 @@ const App = () => {
         </nav>
       </header>
 
-      {/* Rest deiner Komponente bleibt gleich */}
+      {/*   Komponente   */}
       <main>
         <section id="about" className="profile-section">
           <div className="profile-header">
@@ -171,7 +182,7 @@ const App = () => {
           </div>
         </section>
 
-        {/* Rest deiner Sections bleiben gleich */}
+        {/*   Sections   */}
         <section id="skills">
           <h2>Meine Skills</h2>
           <div className="skills-container">
@@ -192,7 +203,7 @@ const App = () => {
           </div>
         </section>
 
-        <section id="experience" className="experience-section">
+        <section id="experience" className="experience-section"ref={experienceRef}>
           <h2>Mein Werdegang</h2>
           <div className="custom-carousel">
             <div className="carousel-content">
