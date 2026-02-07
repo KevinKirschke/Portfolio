@@ -93,7 +93,7 @@ export const carouselItems = [
         <span className="timeline-date">2025</span>
         <span className="timeline-content">
           Facharbeiter nach der Ausbildung
-          <br />- …hier könnte Ihr Name stehen! :)
+          <br />- selbständige Weiterbildungen :)
         </span>
       </div>
     </div>
