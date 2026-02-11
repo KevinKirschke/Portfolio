@@ -43,24 +43,24 @@ const App = () => {
 
   // Skill-Daten
   const skills = [
-    { name: 'JavaScript', level: 7 },
+    { name: 'JavaScript', level: 5 },
     { name: 'TypeScript', level: 5 },
-    { name: 'React', level: 7 },
+    { name: 'React', level: 6 },
     { name: 'Angular', level: 5 },
-    { name: 'HTML', level: 8 },
+    { name: 'HTML', level: 6 },
     { name: 'Node.js', level: 6 },
-    { name: 'GitHub', level: 8 },
-    { name: 'CSS', level: 7 },
-    { name: 'UI/UX Design', level: 8 },
-    { name: 'Cyber Security (Netzwerk, Pentesting)', level: 6 },
-    { name: 'Windows Server', level: 6 },
-    { name: 'Linux Administration', level: 6 },
-    { name: 'Virtualisierung (VMware/Oracle)', level: 7 },
-    { name: 'Netzwerkmanagement (Switch/Router/Firewall)', level: 7 },
+    { name: 'GitHub', level: 6 },
+    { name: 'CSS', level: 3 },
+    { name: 'UI/UX Design', level: 7 },
+    { name: 'Cyber Security (Netzwerk, Pentesting)', level: 3 },
+    { name: 'Windows Administration', level: 5 },
+    { name: 'Linux Administration', level: 5 },
+    { name: 'Virtualisierung (VMware/Oracle)', level: 4 },
+    { name: 'Netzwerkmanagement (Switch/Router/Firewall)', level: 5 },
     { name: 'Monitoring & Logging', level: 5 },
-    { name: 'Backup & Restore', level: 6 },
+    { name: 'Backup & Documentation', level: 7 },
     { name: 'Patch Management', level: 5 },
-    { name: 'TCP/IP, DNS, DHCP', level: 7 }
+    { name: 'TCP/IP, DNS, DHCP', level: 4 }
   ];
 
   // Kontaktfunktionen
