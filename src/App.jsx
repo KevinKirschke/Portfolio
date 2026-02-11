@@ -175,7 +175,7 @@ const App = () => {
           <div className="profile-bio">
             <br/>
             <p>
-                Ich verbinde über 20 Jahre Führungsverantwortung mit moderner IT-Expertise. 
+                Ich verbinde über 20 Jahre Führungsverantwortung mit moderner IT-Expertise.  <br/> <br/>
                 Nach meiner Ausbildung zum Fachinformatiker für Anwendungsentwicklung 
                 sammelte ich praktische Erfahrung in IT-Sicherheit, Systemintegration 
                 und Softwareentwicklung.
@@ -187,6 +187,7 @@ const App = () => {
                 und modernen Automatisierungstools.
               </p>
 
+ <br/> <br/>
               <p>
                 Ich denke nicht nur in Code – sondern in Prozessen, Risiken und 
                 nachhaltigen Lösungen.

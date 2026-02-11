@@ -11,16 +11,17 @@ export const carouselItems = [
         Über 20 Jahre Berufserfahrung haben mich geprägt:<br/>   <br/>
         vom Koch über Küchenchef bis zum Geschäftsführer. Ich habe Teams mit
         über 40 Mitarbeitern geführt, Budgets verantwortet, Prozesse
-        optimiert und unter hohem Druck Entscheidungen getroffen.   <br/>   <br/>
+        optimiert und unter hohem Druck Entscheidungen getroffen.   <br/>
         Ich habe gelernt, den Überblick zu behalten, wenn es komplex wird –
         und Verantwortung zu übernehmen, wenn es darauf ankommt.
       </p>
 
-      <br/>   <br/>
+      <br/>
 
       <p>
         Doch meine Faszination für die IT war immer da. Schon früh
         experimentierte ich mit HTML und ersten Webseiten.   <br/>   <br/>
+        
         Nach einem gesundheitlichen Einschnitt entschied ich mich bewusst,
         meiner ursprünglichen Leidenschaft zu folgen – und absolvierte
         erfolgreich die Ausbildung zum Fachinformatiker für
@@ -32,7 +33,7 @@ export const carouselItems = [
 
         Heute verbinde ich zwei Welten:    <br/>   <br/>
         langjährige Führungserfahrung und moderne IT-Expertise. Ich habe praktische Erfahrungen in
-        IT-Sicherheit, Systemintegration und Softwareentwicklung gesammelt.    <br/>   <br/>
+        IT-Sicherheit, Systemintegration und Softwareentwicklung gesammelt. <br/>
         Neben der Administration von Windows- und Linux-Systemen sowie
         Firewall- und Security-Themen vertiefte ich mein Wissen in
         Netzwerktechnik, Incident Response, Datenverschlüsselung und
@@ -40,12 +41,12 @@ export const carouselItems = [
         strategisch und sichere sie technisch ab.
       </p>
 
-   <br/>   <br/>
+   <br/>
 
       <p>
         Besonders begeistert mich die Dynamik der Cyber Security.
         Moderne Bedrohungen entwickeln sich rasant – und genau hier sehe ich
-        meine berufliche Zukunft.    <br/>   <br/>
+        meine berufliche Zukunft.  <br/>
         Mit Hilfe von künstlicher Intelligenz
         und automatisierten Analyseverfahren möchte ich Angriffsmuster
         erkennen, Risiken frühzeitig identifizieren und Unternehmen
@@ -56,7 +57,7 @@ export const carouselItems = [
 
       <p>
         Gleichzeitig bleibe ich meiner Leidenschaft für die
-        Softwareentwicklung treu.    <br/>   <br/>
+        Softwareentwicklung treu:    <br/>   <br/>
         Ob mit React, JavaScript, HTML und CSS
         oder durch Prozessautomatisierung – ich entwickle Lösungen,
         die nicht nur funktionieren, sondern nachhaltig wirken.
@@ -64,11 +65,11 @@ export const carouselItems = [
         strategisch eingebettet und sinnvoll eingesetzt werden.
       </p>
 
-   <br/>   <br/>
+  <br/>
 
       <p>
         Meine Stärke liegt in der Kombination aus Verantwortung,
-        analytischem Denken und technischer Neugier.    <br/>   <br/>
+        analytischem Denken und technischer Neugier.   <br/>
         Ich programmiere nicht nur – ich denke in Strukturen, in Prozessen und in
         nachhaltigen Lösungen. Mein Ziel ist es, mich als IT-Spezialist
         im Bereich Cyber Security zu etablieren und moderne,
