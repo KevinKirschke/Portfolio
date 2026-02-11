@@ -164,7 +164,7 @@ const App = () => {
             
             <div className="profile-info">
               <h2>Über mich</h2>
-              <p className="profile-title">Fachinformatiker für Anwendungsentwicklung</p>
+              <p className="profile-title">Fachinformatiker für Anwendungsentwicklung | Cyber Security & Systemintegration </p>
               <p className="profile-company">dynexo GmbH, Braunschweig</p>
               <a href="mailto:kevin.kirschke@mail.de" className="profile-email">
                 kevin.kirschke@mail.de
@@ -175,10 +175,22 @@ const App = () => {
           <div className="profile-bio">
             <br/>
             <p>
-              Als gelernter Fachinformatiker für Anwendungsentwicklung mit abwechslungsreicher Berufslaufbahn bringe ich sowohl technische Kompetenz 
-              als auch praktische Problemlösungsfähigkeiten mit. Auch im Bereich der Systemintigration bin ich mit dem nötigen Basiswissen versorgt. Meine Leidenschaft gilt der Entwicklung benutzerfreundlicher 
-              Anwendungen, Cyber Secrurity & Pentesting, sowie der kontinuierlichen Weiterbildung im IT-Bereich.
-            </p>
+                Ich verbinde über 20 Jahre Führungsverantwortung mit moderner IT-Expertise. 
+                Nach meiner Ausbildung zum Fachinformatiker für Anwendungsentwicklung 
+                sammelte ich praktische Erfahrung in IT-Sicherheit, Systemintegration 
+                und Softwareentwicklung.
+              </p>
+
+              <p>
+                Mein Fokus liegt auf Cyber Security, Netzwerktechnik, Incident Response 
+                und der Entwicklung sicherer, effizienter Anwendungen mit React, JavaScript 
+                und modernen Automatisierungstools.
+              </p>
+
+              <p>
+                Ich denke nicht nur in Code – sondern in Prozessen, Risiken und 
+                nachhaltigen Lösungen.
+              </p>
           </div>
         </section>
 

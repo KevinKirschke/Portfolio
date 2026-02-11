@@ -6,35 +6,64 @@ export const carouselItems = [
   {
     title: "Prolog",
     content: (
-      <div className="carousel-page">
-        <p>
-          Nach meiner erfolgreich abgeschlossenen Ausbildung zum Fachinformatiker für Anwendungsentwicklung 
-          habe ich umfassende praktische Erfahrungen in den Bereichen IT-Sicherheit, 
-          Systemintegration und Softwareentwicklung gesammelt. 
-        </p>
-        <p>
-          Neben klassischer Administration von Windows- und Linux-Systemen sowie der Bearbeitung von Firewall-Tickets 
-          konnte ich mein Wissen in Netzwerktechnik, Incident Response, Datenverschlüsselung und Cloud-Security vertiefen. 
-          Dabei habe ich gelernt, Risiken zu erkennen und durch technische Maßnahmen abzusichern. 
-        </p>
-        <p>
-          Besonders fasziniert mich die dynamische Entwicklung im Bereich Cyber Security. 
-          Hier sehe ich meine berufliche Zukunft: moderne Bedrohungen mit Hilfe von 
-          künstlicher Intelligenz und neuesten Technologien zu analysieren, 
-          Angriffsmuster automatisiert zu erkennen und Abwehrmaßnahmen proaktiv umzusetzen. 
-        </p>
-        <p>
-          Gleichzeitig bleibe ich meiner Leidenschaft für die Softwareentwicklung treu: 
-          Ob mit React, JavaScript, HTML und CSS, 
-          oder in der Automatisierung von Prozessen – ich verbinde gerne die Stärken aus beiden Welten: 
-          sichere IT-Infrastrukturen und moderne, nutzerfreundliche Anwendungen.
-        </p>
-        <p>
-          Mein Ziel ist es, mich als IT-Spezialist im Bereich Cyber Security zu etablieren – 
-          mit einem klaren Fokus auf den Einsatz von KI-gestützten Methoden, 
-          um Unternehmen nachhaltig gegen digitale Bedrohungen zu schützen.
-        </p>
-      </div>
+    <div className="carousel-page">
+      <p>
+        Führung ist für mich keine Position – sondern eine Haltung.
+        Über 20 Jahre Berufserfahrung haben mich geprägt: vom Koch
+        über Küchenchef bis zum Geschäftsführer. Ich habe Teams mit
+        über 40 Mitarbeitern geführt, Budgets verantwortet, Prozesse
+        optimiert und unter hohem Druck Entscheidungen getroffen.
+        Ich habe gelernt, den Überblick zu behalten, wenn es komplex wird –
+        und Verantwortung zu übernehmen, wenn es darauf ankommt.
+      </p>
+
+      <p>
+        Doch meine Faszination für die IT war immer da. Schon früh
+        experimentierte ich mit HTML und ersten Webseiten. Nach einem
+        gesundheitlichen Einschnitt entschied ich mich bewusst,
+        meiner ursprünglichen Leidenschaft zu folgen – und absolvierte
+        erfolgreich die Ausbildung zum Fachinformatiker für
+        Anwendungsentwicklung.
+      </p>
+
+      <p>
+        Heute verbinde ich zwei Welten: langjährige Führungserfahrung
+        und moderne IT-Expertise. Ich habe praktische Erfahrungen in
+        IT-Sicherheit, Systemintegration und Softwareentwicklung gesammelt.
+        Neben der Administration von Windows- und Linux-Systemen sowie
+        Firewall- und Security-Themen vertiefte ich mein Wissen in
+        Netzwerktechnik, Incident Response, Datenverschlüsselung und
+        Cloud-Security. Risiken erkenne ich nicht nur – ich bewerte sie
+        strategisch und sichere sie technisch ab.
+      </p>
+
+      <p>
+        Besonders begeistert mich die Dynamik der Cyber Security.
+        Moderne Bedrohungen entwickeln sich rasant – und genau hier sehe ich
+        meine berufliche Zukunft. Mit Hilfe von künstlicher Intelligenz
+        und automatisierten Analyseverfahren möchte ich Angriffsmuster
+        erkennen, Risiken frühzeitig identifizieren und Unternehmen
+        proaktiv schützen.
+      </p>
+
+      <p>
+        Gleichzeitig bleibe ich meiner Leidenschaft für die
+        Softwareentwicklung treu. Ob mit React, JavaScript, HTML und CSS
+        oder durch Prozessautomatisierung – ich entwickle Lösungen,
+        die nicht nur funktionieren, sondern nachhaltig wirken.
+        Denn guter Code allein reicht nicht aus. Er muss verstanden,
+        strategisch eingebettet und sinnvoll eingesetzt werden.
+      </p>
+
+      <p>
+        Meine Stärke liegt in der Kombination aus Verantwortung,
+        analytischem Denken und technischer Neugier. Ich programmiere
+        nicht nur – ich denke in Strukturen, in Prozessen und in
+        nachhaltigen Lösungen. Mein Ziel ist es, mich als IT-Spezialist
+        im Bereich Cyber Security zu etablieren und moderne,
+        KI-gestützte Sicherheitskonzepte aktiv mitzugestalten.
+      </p>
+    </div>
     )
   },
 {

@@ -12,23 +12,24 @@
             Ich belegte IT-Kurse, lernte HTML und beschäftigte mich mit den
             ersten Webseiten, damals noch mit Netobject Fusions.
             Dennoch führte mich mein beruflicher Weg zunächst, aus familiären
-            Gründen, in die Gastronomie, ein Umfeld, das Disziplin, Organisation
-            und Teamführung auf höchstem Niveau erfordert.
+            Gründen, in die Gastronomie – ein Umfeld, das höchste Disziplin,
+            Organisationstalent und Teamführung erfordert.
         </p>
         <p>
-            Als Koch , Postenchef, Küchenchef und später als Geschäftsführer
-            habe ich gelernt, Verantwortung zu tragen, Prozesse zu optimieren und auch
-            unter Druck stets lösungsorientiert zu handeln.
-            Diese Erfahrung prägt bis heute meine Arbeitsweise - strukturiert,
-            teamorientiert und fokusiert.
+            Mit über 20 Jahren Berufserfahrung habe ich gelernt, Verantwortung zu tragen,
+            Teams zu koordinieren und Prozesse effizient zu gestalten. Vom Koch über
+            Küchenchef bis zum Geschäftsführer habe ich Dienstpläne für 40+ Mitarbeiter erstellt,
+            Budgets geplant und kalkuliert sowie unter Druck stets lösungsorientiert gehandelt.
+            Führung ist für mich nie eine Position gewesen – sondern eine Denkweise,
+            die Entscheidungen verantwortungsbewusst, umsichtig und zukunftsorientiert trifft.
         </p>
         <p>
             Nach einem gesundheitlichen Einschnitt entschied ich mich bewusst,
             meiner ursprünglichen Leidenschaft zu folgen und in die IT zurückzukehren.
-            Ich absolvierte eine Ausbildung zum Fachinformatiker für Anwendungsentwicklung
-            bei der dynexo GmbH in Braunschweig, wo ich nicht nur meine Programmierkenntnisse
-            aufbauen konnte, sondern auch ein tiefes technisches Verständnis für Systeme,
-            Netzwerke und die organisatorische Seite von IT-Projekten.
+            Ich absolvierte die Ausbildung zum Fachinformatiker für Anwendungsentwicklung
+            bei der dynexo GmbH in Braunschweig, wo ich meine Programmierkenntnisse
+            vertiefen und ein tiefes technisches Verständnis für Systeme, Netzwerke
+            und IT-Projekte entwickeln konnte.
         </p>
     </section>
 
@@ -94,7 +95,7 @@
       <span className=  "Berufseinstieg"  >  2025  </span>
 
       <p> Facharbeiter nach der Ausbildung </p>
-            - ...hier könnte Ihr Name stehen!
+            - Freelancer / Berufliche Weiterbildung
     </div>
 
 
@@ -143,36 +144,34 @@
         </li>
     </ul>
 
-    <section className=  "Epilog"  >
+    <section className="Epilog">
 
-     <h4> Ausblick & Zielsetzung </h4>
+        <h4>Ausblick & Zielsetzung</h4>
         <p>
-            Durch meine vielseitige Laufbahn vereine ich heute die technische
-            Präzision eines Softwareentwicklers mit dem analytischen Denken
-            eines Systemintegrators. Ich verstehe, wie Prozesse funktionieren.
-            Sowohl organisatorisch als auch technisch und nutze dieses Wissen,
+            Heute vereine ich die technische Präzision eines Softwareentwicklers
+            mit dem analytischen Denken und der Führungsverantwortung aus 20 Jahren
+            Praxis in Gastronomie und Management. Ich verstehe, wie Prozesse funktionieren –
+            sowohl organisatorisch als auch technisch – und nutze dieses Wissen,
             um Systeme stabil, sicher und effizient zu gestalten.
         </p>
         <p>
-            Mein zukünftiger Fokus liegt auf den Bereichen Cyber Security,
-            Netzwerktechnik, Penetration Testing,
-            Scripting und Softwareentwicklung.
-            Ich bilde mich kontinuierlich weiter, insbesondere im Umgang mit
-            sicherheitsrelevanten Technologien, Container-Plattformen
+            Mein Fokus liegt auf Cyber Security, Netzwerktechnik, Penetration Testing,
+            Scripting und Softwareentwicklung. Ich bilde mich kontinuierlich weiter,
+            insbesondere im Umgang mit sicherheitsrelevanten Technologien, Container-Plattformen
             und modernen Automatisierungstools.
         </p>
         <p>
-            Mit großem Interesse verfolge ich außerdem die rasante Entwicklung der
-            Künstlichen Intelligenz und sehe darin enormes Potenzial,
-            um Prozesse intelligenter, effizienter und sicherer zu gestalten.
-            Mein Ziel ist es, dieses Wissen aktiv in zukünftige Projekte einzubringen,
-            sei es in der Verwaltung, im Betrieb oder in der Entwicklung neuer Anwendungen.
+            Parallel verfolge ich die rasante Entwicklung der Künstlichen Intelligenz,
+            um Prozesse intelligenter, effizienter und sicherer zu gestalten. Mein Ziel ist,
+            dieses Wissen aktiv in Projekte einzubringen – sei es in Betrieb, Verwaltung
+            oder in der Entwicklung neuer Anwendungen.
         </p>
         <p>
-            Ich bin überzeugt, dass meine Kombination aus Praxiserfahrung,
-            Lernbereitschaft und technischer Neugier einen echten Mehrwert
-            für jedes moderne IT-Team darstellt.
+            Meine Kombination aus Verantwortungserfahrung, analytischem Denken,
+            technischer Neugier und Lernbereitschaft macht mich zu einem echten Mehrwert
+            für jedes moderne IT-Team.
         </p>
+
     </section>
   </div>
 </div>
