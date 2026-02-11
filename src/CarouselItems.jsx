@@ -7,7 +7,7 @@ export const carouselItems = [
     title: "Prolog",
     content: (
     <div className="carousel-page">
-      <p>
+      <p> <br/>
         <h4>Über 20 Jahre Berufserfahrung haben mich geprägt:</h4>
     
         vom Koch über Küchenchef bis zum Geschäftsführer. Ich habe Teams mit
@@ -16,6 +16,7 @@ export const carouselItems = [
         Ich habe gelernt, den Überblick zu behalten, wenn es komplex wird –
         und Verantwortung zu übernehmen, wenn es darauf ankommt.
       </p>
+      <br/>
       <p>
         Doch meine Faszination für die IT war immer da. Schon früh
         experimentierte ich mit HTML und ersten Webseiten.
@@ -24,6 +25,7 @@ export const carouselItems = [
         erfolgreich die Ausbildung zum Fachinformatiker für
         Anwendungsentwicklung.
       </p>
+      <br/>
       <p>
         <h4>Heute verbinde ich zwei Welten:</h4>
 
@@ -35,6 +37,7 @@ export const carouselItems = [
         Cloud-Security. Risiken erkenne ich nicht nur – ich bewerte sie
         strategisch und sichere sie technisch ab.
       </p>
+      <br/>
       <p>
         Besonders begeistert mich die Dynamik der Cyber Security.
         Moderne Bedrohungen entwickeln sich rasant – und genau hier sehe ich
@@ -43,24 +46,6 @@ export const carouselItems = [
         und automatisierten Analyseverfahren möchte ich Angriffsmuster
         erkennen, Risiken frühzeitig identifizieren und Unternehmen
         proaktiv schützen.
-      </p>
-      <p>
-        <h4>Gleichzeitig bleibe ich meiner Leidenschaft für die
-        Softwareentwicklung treu:</h4>   
-
-        Ob mit React, JavaScript, HTML und CSS
-        oder durch Prozessautomatisierung – ich entwickle Lösungen,
-        die nicht nur funktionieren, sondern nachhaltig wirken.
-        Denn guter Code allein reicht nicht aus. Er muss verstanden,
-        eingebettet und sinnvoll eingesetzt werden.
-      </p>
-      <p>
-        Meine Stärke liegt in der Kombination aus Verantwortung,
-        analytischem Denken und technischer Neugier.
-        Ich programmiere nicht nur – ich denke in Strukturen, in Prozessen und in
-        nachhaltigen Lösungen. Mein Ziel ist es, mich als IT-Spezialist
-        im Bereich Cyber Security zu etablieren und moderne,
-        KI-gestützte Sicherheitskonzepte aktiv mitzugestalten.
       </p>
     </div>
     )
