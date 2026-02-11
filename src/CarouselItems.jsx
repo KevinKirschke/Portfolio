@@ -8,7 +8,8 @@ export const carouselItems = [
     content: (
     <div className="carousel-page">
       <p>
-        Über 20 Jahre Berufserfahrung haben mich geprägt:<br/>   <br/>
+        <h4>Über 20 Jahre Berufserfahrung haben mich geprägt:</h4>
+    
         vom Koch über Küchenchef bis zum Geschäftsführer. Ich habe Teams mit
         über 40 Mitarbeitern geführt, Budgets verantwortet, Prozesse
         optimiert und unter hohem Druck Entscheidungen getroffen.   <br/>
@@ -26,10 +27,11 @@ export const carouselItems = [
         Anwendungsentwicklung.
       </p>
 
-   <br/>   <br/>
+   <br/>
       <p>
 
-        Heute verbinde ich zwei Welten:    <br/>   <br/>
+        <h4>Heute verbinde ich zwei Welten:</h4>
+
         langjährige Führungserfahrung und moderne IT-Expertise. Ich habe praktische Erfahrungen in
         IT-Sicherheit, Systemintegration und Softwareentwicklung gesammelt. <br/>
         Neben der Administration von Windows- und Linux-Systemen sowie
@@ -49,11 +51,11 @@ export const carouselItems = [
         proaktiv schützen.
       </p>
 
-   <br/>   <br/>
-
+   <br/>  
       <p>
-        Gleichzeitig bleibe ich meiner Leidenschaft für die
-        Softwareentwicklung treu:    <br/>   <br/>
+        <h4>Gleichzeitig bleibe ich meiner Leidenschaft für die
+        Softwareentwicklung treu:</h4>   
+
         Ob mit React, JavaScript, HTML und CSS
         oder durch Prozessautomatisierung – ich entwickle Lösungen,
         die nicht nur funktionieren, sondern nachhaltig wirken.
@@ -80,8 +82,8 @@ export const carouselItems = [
       <div className="timeline-item">
         <span className="timeline-date">2004</span>
         <span className="timeline-content">
-          Ausbildung zum Koch & Restaurantfachmann
-          <br />- Hotel Panoramic, Hohegeiß
+          <h4>Ausbildung zum Koch & Restaurantfachmann</h4>
+         - Hotel Panoramic, Hohegeiß
           <br />- Kurhaus, Bad Lauterberg
         </span>
       </div>
@@ -89,8 +91,8 @@ export const carouselItems = [
       <div className="timeline-item">
         <span className="timeline-date">2008</span>
         <span className="timeline-content">
-          Facharbeiter nach der Ausbildung
-          <br />- Mooks Hotel, Altenau
+          <h4>Facharbeiter nach der Ausbildung</h4>
+          - Mooks Hotel, Altenau
           <br />- Ristorante Onda Blue, Bad Lauterberg
         </span>
       </div>
@@ -98,8 +100,8 @@ export const carouselItems = [
       <div className="timeline-item">
         <span className="timeline-date">2011</span>
         <span className="timeline-content">
-          Positionen mit Führungsverantwortung
-          <br />- Hotel Upstalsboom, Heringsdorf
+          <h4>Positionen mit Führungsverantwortung</h4>
+          - Hotel Upstalsboom, Heringsdorf
           <br />- Streamers, Key Largo, Miami, USA
           <br />- Hotel Alpenfrieden, Kappel, Österreich
           <br />- Hotel Mövenpick, Braunschweig
@@ -109,8 +111,8 @@ export const carouselItems = [
       <div className="timeline-item">
         <span className="timeline-date">2016</span>
         <span className="timeline-content">
-          Küchenchef, Geschäftsführer & Management
-          <br />- Hotel Altes Zollhaus, Braunschweig
+          <h4>Küchenchef, Geschäftsführer & Management</h4>
+         - Hotel Altes Zollhaus, Braunschweig
           <br />- Jumpers Gastroservice GmbH, Braunschweig
           <br />- Gastronomie & Events, Edeka Görge, Braunschweig
         </span>
@@ -119,16 +121,16 @@ export const carouselItems = [
       <div className="timeline-item">
         <span className="timeline-date">2023</span>
         <span className="timeline-content">
-          Ausbildung zum Fachinformatiker für Anwendungsentwicklung
-          <br />- IT Security, dynexo GmbH, Braunschweig
+          <h4>Ausbildung zum Fachinformatiker für Anwendungsentwicklung</h4>
+          - IT Security, dynexo GmbH, Braunschweig
         </span>
       </div>
 
       <div className="timeline-item">
         <span className="timeline-date">2025</span>
         <span className="timeline-content">
-          Facharbeiter nach der Ausbildung
-          <br />- selbständige Weiterbildungen :)
+          <h4>Facharbeiter nach der Ausbildung</h4>
+          - selbständige Weiterbildungen :)
         </span>
       </div>
     </div>
@@ -163,7 +165,7 @@ export const carouselItems = [
         </div>
         <div className="education-item">
           <div className="education-content">
-            <h4>Praktika & Weiterbildungen</h4>
+            <h3>Praktika & Weiterbildungen</h3>
             <ul>
               <li>Cisco Networking Academy & Certification
                 <br/>
