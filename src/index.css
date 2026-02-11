@@ -82,6 +82,15 @@
 .light-mode .timeline-content {
   color: var(--text-light) !important;
 }
+/* Timeline Section */
+.light-mode .timeline-item h4 {
+  color: var(--accent-blue) !important;
+}
+
+/* Carusell Section */
+.light-mode .carousel-page h4 {
+  color: var(--accent-blue) !important;
+}
 
 /* Education Section */
 .light-mode .education-item h4 {
