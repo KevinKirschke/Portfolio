@@ -16,11 +16,9 @@ export const carouselItems = [
         und Verantwortung zu übernehmen, wenn es darauf ankommt.
       </p>
 
-      <br/>
-
       <p>
         Doch meine Faszination für die IT war immer da. Schon früh
-        experimentierte ich mit HTML und ersten Webseiten.   <br/>   <br/>
+        experimentierte ich mit HTML und ersten Webseiten.    <br/>
         
         Nach einem gesundheitlichen Einschnitt entschied ich mich bewusst,
         meiner ursprünglichen Leidenschaft zu folgen – und absolvierte
@@ -40,8 +38,6 @@ export const carouselItems = [
         Cloud-Security. Risiken erkenne ich nicht nur – ich bewerte sie
         strategisch und sichere sie technisch ab.
       </p>
-
-   <br/>
 
       <p>
         Besonders begeistert mich die Dynamik der Cyber Security.
@@ -64,8 +60,6 @@ export const carouselItems = [
         Denn guter Code allein reicht nicht aus. Er muss verstanden,
         strategisch eingebettet und sinnvoll eingesetzt werden.
       </p>
-
-  <br/>
 
       <p>
         Meine Stärke liegt in der Kombination aus Verantwortung,
