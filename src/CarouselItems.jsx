@@ -7,7 +7,7 @@ export const carouselItems = [
     title: "Prolog",
     content: (
     <div className="carousel-page">
-      <p> <br/>
+      <p>
         <h4>Über 20 Jahre Berufserfahrung haben mich geprägt:</h4>
     
         vom Koch über Küchenchef bis zum Geschäftsführer. Ich habe Teams mit
@@ -67,7 +67,7 @@ export const carouselItems = [
       <div className="timeline-item">
         <span className="timeline-date">2008</span>
         <span className="timeline-content">
-          <h4>Facharbeiter nach der Ausbildung</h4>
+          <h4>Junior Koch</h4>
           - Mooks Hotel, Altenau
           <br />- Ristorante Onda Blue, Bad Lauterberg
         </span>
@@ -105,8 +105,11 @@ export const carouselItems = [
       <div className="timeline-item">
         <span className="timeline-date">2025</span>
         <span className="timeline-content">
-          <h4>Facharbeiter nach der Ausbildung</h4>
-          - selbständige Weiterbildungen :)
+          <h4>Junior Softwareentwickler</h4>
+          Eigenständige Spezialisierung <br/>
+          - Netzwerksicherheit
+          - System Administration
+          - Penetration Testing
         </span>
       </div>
     </div>
@@ -119,23 +122,23 @@ export const carouselItems = [
         <div className="education-item">
           <div className="education-content">
             <h4>Ausbildung zum Fachinformatiker für Anwendungsentwicklung - 2023</h4>
-            <p>dynexo GmbH </p>
+            <p>- dynexo GmbH </p>
             <br/>
           </div>
         </div>
         <div className="education-item">
           <div className="education-content">
             <h4>Ausbildung zum Koch & Restaurantfachmann - 2004</h4>
-            <p>Panoramic Hohegeiß </p>
-            <p>Kurhaus Bad Lauterberg </p>
+            <p>- Panoramic Hohegeiß </p>
+            <p>- Kurhaus Bad Lauterberg </p>
             <br/>
           </div>
         </div>
         <div className="education-item">
           <div className="education-content">
             <h4>BBS Bad Harzburg/Clausthal-Zellerfeld & Realschule Braunlage</h4>
-            <p>Sek 2 - Abschluss </p>
-            <p>Sek 1 - Abschluss </p>
+            <p>- Sek 2 Abschluss </p>
+            <p>- Sek 1 Abschluss </p>
             <br/>
           </div>
         </div>
@@ -157,6 +160,8 @@ export const carouselItems = [
                 <br />- Team-Wiki-Dokumentation und Versionsverwaltung (GitHub)
                 <br />- React-Frontend & Flask-Backend Projekte
                 <br />- Schulungs- und Projektkoordination im Team
+                <br />- Firewall / Router / Switch Konfiguration
+                <br />- Hardware & Software Installation
               </li>
             </ul>
           </div>
